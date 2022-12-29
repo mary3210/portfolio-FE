@@ -5,6 +5,7 @@ function Projects(props) {
 
     const getProjectsData = async () => {
         const response = await fetch("./projects.json");
+        console.log(response)
         const data = await response.json();
         setProjects(data)
     };
