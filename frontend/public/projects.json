@@ -1,0 +1,14 @@
+[
+    {
+      "name": "project1",
+      "live": "https://mary3210.github.io/Blackjack/",
+      "git": "https://github.com/mary3210/Blackjack",
+      "image": "https://github.com/mary3210/Blackjack/blob/main/images/Blackjack.png"
+    },
+    {
+      "name": "project2",
+      "live": "https://luminous-melomakarona-6cbbfe.netlify.app/",
+      "git": "https://github.com/mary3210/project2",
+      "image": "https://github.com/mary3210/project2/blob/main/Image/Screenshot.png"
+    }
+  ]
