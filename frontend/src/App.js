@@ -6,12 +6,14 @@ import {Route, Routes} from "react-router-dom"
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
-
+//New Imports
+import Profile from './PortfolioContainer/Home/Profile'
 
 function App() {
   const URL = "http://localhost:3000/"
   return (
    <div className="App">
+    <Profile />
     <Header />
     <Routes>
       <Route exact path="/" element ={<Home/>} />
