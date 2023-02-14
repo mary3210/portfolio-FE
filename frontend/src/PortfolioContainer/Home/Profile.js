@@ -24,16 +24,20 @@ function Profile() {
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hello I'm <span className="highlighted-text">Mary</span>
+              Hello I'm Mary<span className="type"></span>
             </span>
           </div>
           <div className="profile-details-role">
-            <span className="primary-text">
-                {" "}
-                <h1>
-                    
-                </h1>
+            <script src="typed.js"></script>
+            <script>
+            {/* var typed = new Typed('.type', {
+  strings: ['This is a JavaScript library', 'This is an ES6 module'],
+  smartBackspace: true // Default value
+}); */}
+            <span className='profile-role-tagline'>
+                On a quest to create with both back-end and front-end operations.
             </span>
+            </script>
           </div>
         </div>
       </div>
