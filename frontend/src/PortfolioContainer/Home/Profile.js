@@ -5,21 +5,17 @@ function Profile() {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
-            <a href='"'>
-              <i className="fa fa-facebook-square"></i>
-            </a>
+            <div className='colz-icon'>
+           
             <a href="https://github.com/mary3210">
               <i className="fa fa-github"></i>
             </a>
             <a href="https://www.linkedin.com/in/mary-rodriguez-/">
               <i className="fa fa-linkedin"></i>
             </a>
-            <a href='"'>
-              <i className="fa fa-facebook-square"></i>
-            </a>
-            <a href='"'>
-              <i className="fa fa-facebook-square"></i>
-            </a>
+           
+                
+            </div>
           </div>
           <div className="profile-details-name">
             <span className="primary-text">
@@ -40,14 +36,19 @@ function Profile() {
             </script>
           </div>
           <div className="profile-options">
-            <button className="btn-primary-btn">
+            <button className="btn primary-btn">
                 {""}
                 Hire Me {" "}
                 </button>
             <a href='resume.pdf' download='Mary Rodriguez.pdf'>
-                <button className='btn-highlighted-btn'>Get Resume</button>
+                <button className='btn highlighted-btn'>Get Resume</button>
             </a>
           </div>
+        </div>
+        <div className='profile-picture'>
+            <div className="profile-picture-background">
+
+            </div>
         </div>
       </div>
     </div>

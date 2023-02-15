@@ -13,8 +13,10 @@ function App() {
   const URL = "http://localhost:3000/"
   return (
    <div className="App">
-    <Profile />
+    
     <Header />
+    <Profile />
+    <Projects/>
     <Routes>
       <Route exact path="/" element ={<Home/>} />
       <Route path="/projects" element ={<Projects URL= {URL}/>} />
