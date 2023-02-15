@@ -106,17 +106,17 @@ body ::-webkit-scrollbar-thumb {
   }
 } */
 
-.primary-btn:hover {
+.highlighted-btn:hover {
   color: aliceblue;
-  border: 2px solid #ff5823;
-  background-color: #1f2235;
+  border: 2px solid white;
+  background-color: #EA4C89;
 }
 
 .highlighted-btn {
   color: aliceblue;
 
   font-size: 12px;
-  background-color: #ff5823;
+  background-color: #EA4C89;
 }
 @media only screen and (max-width: 568px) {
   .highlighted-btn {
@@ -259,4 +259,8 @@ img {
 i {
   margin-top:10px;
   margin-bottom: 20px;
+ }
+
+ h1 {
+  color: white;
  }

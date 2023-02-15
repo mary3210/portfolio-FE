@@ -5,22 +5,12 @@ function Profile() {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
-            <div className='colz-icon'>
-           
-            <a href="https://github.com/mary3210">
-              <i className="fa fa-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/mary-rodriguez-/">
-              <i className="fa fa-linkedin"></i>
-            </a>
-           
-                
-            </div>
+            
           </div>
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hello I'm Mary<span className="type"></span>
+              Hello I'm Mary, Welcome to my portfolio. Feel free to to checkout my projects.<span className="type"></span>
             </span>
           </div>
           <div className="profile-details-role">
