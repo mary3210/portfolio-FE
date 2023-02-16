@@ -284,7 +284,7 @@ nav div:hover {
  }
 
  /* footer */
-i {
+ .colz-icon a{
   margin-top:15px;
   padding-top: 20px;
   margin-bottom: 20px;
@@ -295,7 +295,7 @@ i {
  h1 {
   color: white;
  }
-i:hover{
+.colz-icon a:hover{
 color:pink;
 }
  /* about page */

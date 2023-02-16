@@ -13,7 +13,7 @@ function About(props) {
     const loaded = () => (
         <div className="about">
         <h1>{about.name}</h1>
-        <img className="headshot" src="https://media-exp1.licdn.com/dms/image/D5603AQFzlH8mt0y7DQ/profile-displayphoto-shrink_200_200/0/1669157960110?e=1676505600&v=beta&t=diTSdy9RMBz7B0nGvdVtqGBEqHjxuwTvecuBRAUJj-A" alt="selfie"/>
+        <img className="headshot" src="../assets/Home/profilephoto.jpeg" alt="selfie"/>
         <p>{about.bio}</p>
         <h3>Technical skills</h3>
         <Icon icon="vscode-icons:file-type-python" width="100" height="50"/>
