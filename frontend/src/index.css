@@ -324,7 +324,7 @@ color:pink;
   
  }
  .iconss {
-  display: flex;
+  
   justify-content: center;
   padding-bottom: 100px;
  }
@@ -376,6 +376,7 @@ color:pink;
   .about {
     display: inline-block;
   flex-direction: column;
+ 
   justify-content: center;
   text-align: center;
   margin: auto;
