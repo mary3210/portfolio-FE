@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 //New Imports
-import Profile from './PortfolioContainer/Home/Profile'
+
 
 function App() {
   const URL = "http://localhost:3000/"
@@ -15,8 +15,7 @@ function App() {
    <div className="App">
     
     <Header />
-    <Profile />
-    <Projects/>
+    
     <Routes>
       <Route exact path="/" element ={<Home/>} />
       <Route path="/projects" element ={<Projects URL= {URL}/>} />

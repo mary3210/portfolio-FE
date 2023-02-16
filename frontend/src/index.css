@@ -264,3 +264,14 @@ i {
  h1 {
   color: white;
  }
+
+ /* about page */
+
+ .about i {
+  height: 100px;
+ }
+
+ .about image {
+  height: 100px;
+  width: 50px;
+ }
