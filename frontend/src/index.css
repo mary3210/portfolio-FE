@@ -336,7 +336,7 @@ color:pink;
   width: 500px;
  } */
 
- @media (min-width: 800px) {
+ @media (min-width: 1000px) {
   header {
     justify-content: center;
   }
