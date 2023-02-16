@@ -16,8 +16,11 @@ function About(props) {
         <div className="about">
         <h1>{about.name}</h1>
         <img className="headshot" src="https://i.imgur.com/wjNtEMO.jpg" alt="selfie"/>
+        <div className="text">
         <p>{about.bio}</p>
+        </div>
         <h3>Technical skills</h3>
+        <div className="iconss">
         <Icon icon="vscode-icons:file-type-python" width="100" height="50"/>
         <Icon icon="logos:javascript" width="100" height="50"/>
         <Icon icon="vscode-icons:file-type-html" width="100" height="50"/>
@@ -31,6 +34,7 @@ function About(props) {
         <Icon icon="logos:github-icon" width="100" height="50"/>
         <Icon icon="skill-icons:postgresql-dark" width="100" height="50"/>
         <Icon icon="logos:django" width="100" height="50"/>
+        </div>
         </div>
     );
     return about ? loaded() : <h1>Loading...</h1>;

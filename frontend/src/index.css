@@ -157,7 +157,8 @@ body {
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100%;
+  
+ 
 }
 
 code {
@@ -305,23 +306,37 @@ color:pink;
 
  .about i {
   height: 100px;
+  
  }
 
  .headshot {
   height: 300px;
   width: 210px;
  }
+ .text {
 
+  display: contents;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 500px;
+  
+ }
+ .iconss {
+  display: flex;
+  padding-bottom: 100px;
+ }
  .about {
   
-  display: inline-block;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   margin: auto;
-  height: 100px;
-  width: 500px;
-  padding-top: 100px;
+  
+  
+  padding-top: 150px;
+  
  }
 
  .about h1 {
