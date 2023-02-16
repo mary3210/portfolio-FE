@@ -14,7 +14,7 @@ function About(props) {
         <div className="about">
         <h2>{about.name}</h2>
         <img className="headshot" src={about.headshot}/>
-        <h3>{About.email}</h3>
+        <h3>{about.email}</h3>
         <p>{about.bio}</p>
         <p>Technical skills:</p>
         <Icon icon="vscode-icons:file-type-python" width="100" height="50"/>
