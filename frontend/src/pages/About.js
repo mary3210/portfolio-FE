@@ -12,10 +12,10 @@ function About(props) {
 
     const loaded = () => (
         <div className="about">
-        <h2>{about.name}</h2>
+        <h1>{about.name}</h1>
         <img className="headshot" src={about.headshot}/>
         <p>{about.bio}</p>
-        <p>Technical skills:</p>
+        <h3>Technical skills</h3>
         <Icon icon="vscode-icons:file-type-python" width="100" height="50"/>
         <Icon icon="logos:javascript" width="100" height="50"/>
         <Icon icon="vscode-icons:file-type-html" width="100" height="50"/>

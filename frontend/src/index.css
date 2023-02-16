@@ -88,6 +88,9 @@ body ::-webkit-scrollbar-thumb {
   cursor: pointer;
   transition: 0.2s;
   font-family: "Poppins SemiBold";
+  margin-top: 15px;
+  margin-bottom: 15px;
+ 
 }
 
 .btn:active {
@@ -117,6 +120,7 @@ body ::-webkit-scrollbar-thumb {
 
   font-size: 12px;
   background-color: #EA4C89;
+  
 }
 @media only screen and (max-width: 568px) {
   .highlighted-btn {
@@ -136,7 +140,10 @@ body ::-webkit-scrollbar-thumb {
 
 
 /* OLDER CSS */
-
+.primary-text h2 {
+  color:white;
+  
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -145,6 +152,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to bottom right, #F4CFDF, #B6D8F2);
+  background-size: 100%;
 }
 
 code {
@@ -156,6 +164,7 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 img {
@@ -246,6 +255,9 @@ nav div {
   text-decoration: none;
   padding-right: 10px;
 }
+nav div:hover {
+  color: pink;
+}
  header {
   display: flex;
   position: fixed;
@@ -273,15 +285,19 @@ nav div {
 
  /* footer */
 i {
-  margin-top:10px;
+  margin-top:15px;
+  padding-top: 20px;
   margin-bottom: 20px;
   color: purple;
+  margin-right: 10px;
  }
 
  h1 {
   color: white;
  }
-
+i:hover{
+color:pink;
+}
  /* about page */
 
  .about i {
@@ -304,6 +320,16 @@ i {
   width: 500px;
  }
 
+ .about h1 {
+  color: black
+ }
+
+ .projects p {
+  margin-top: 0;
+  color:white;
+  text-align: center;
+
+ }
  /* .about p {
   
   height: 100px;

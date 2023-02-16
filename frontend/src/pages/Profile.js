@@ -10,7 +10,7 @@ function Profile() {
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hello I'm Mary, Welcome to my portfolio. Feel free to to checkout my projects.<span className="type"></span>
+             <h1>Welcome to Mary's developer portfolio! Check out my projects! <span className="type"></span></h1>
             </span>
           </div>
           <div className="profile-details-role">
