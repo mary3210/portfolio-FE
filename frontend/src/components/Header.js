@@ -16,15 +16,19 @@ function Header(props) {
   return (
     <header>
       <nav >
+        <div className="home">
         <Link to="/">
           <div>HOME</div>
         </Link>
+        </div>
+        <div className="headerabout">
         <Link to="/about">
           <div>ABOUT</div>
         </Link>
-        <Link to="/projects">
+        </div>
+        {/* <Link to="/projects">
           <div>PROJECTS</div>
-        </Link>
+        </Link> */}
       </nav>
     </header>
   );

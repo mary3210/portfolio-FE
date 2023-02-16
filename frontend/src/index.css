@@ -237,21 +237,29 @@ img {
 }
 
 /* navbar */
+
 nav div {
   display: inline-block;
   justify-content: space-between;
-  color:pink;
+  color:white;
   font-size: 30px;
   text-decoration: none;
   padding-right: 10px;
 }
  header {
-  background-color: white;
+  display: flex;
   position: fixed;
   top:0;
   left: 0;
   right:0;
   height: 80px;
+  padding: 10px 10px 0px 0px;
+  height: 50px;
+  justify-content: center;
+  background-color: #82E3FF;
+  box-shadow: 10px 5px 5px black;
+  
+   
 
  }
 
@@ -267,6 +275,7 @@ nav div {
 i {
   margin-top:10px;
   margin-bottom: 20px;
+  color: purple;
  }
 
  h1 {

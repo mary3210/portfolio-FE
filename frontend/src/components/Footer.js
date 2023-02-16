@@ -8,7 +8,9 @@ function Footer(props) {
            <a href="https://www.linkedin.com/in/mary-rodriguez-/">
              <i className="fa fa-linkedin fa-lg"></i>
            </a>
-          
+           <a href="mailto:maryrodri3210@gmail.com">
+           <i className="fa fa-envelope fa-lg"></i>
+           </a>
                
            </div>
 

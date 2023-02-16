@@ -7,14 +7,14 @@
     "description": "A full-stack MERN (Mongoose, Express, React, Node) app that reviews lipstick products and displays them."
   },
   {
-    "name": "FitCheck",
+    "name": "Fitness",
     "live": "https://fitness-check.netlify.app/",
     "git": "https://github.com/mary3210/project-3-fitness-frontend",
     "image": "https://i.imgur.com/EoAD2vB.png",
     "description": "A fullstack MERN (Mongoose, Express, React, Node) app that stores users' fitness selfies and profiles"
   },
   {
-    "name": "Rick and Morty",
+    "name": "Rick and Morty Wiki",
     "live": "https://luminous-melomakarona-6cbbfe.netlify.app/",
     "git": "https://github.com/mary3210/project2",
     "image": "https://i.imgur.com/Tvqb3kk.png",
