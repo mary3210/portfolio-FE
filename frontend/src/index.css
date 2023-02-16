@@ -335,3 +335,15 @@ color:pink;
   height: 100px;
   width: 500px;
  } */
+
+ @media (min-width: 600px) {
+  header {
+    justify-content: center;
+  }
+  .projects {
+    justify-content: center;
+  }
+  body {
+    background-size: cover;
+  }
+ }
