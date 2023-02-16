@@ -336,7 +336,7 @@ color:pink;
   width: 500px;
  } */
 
- @media (min-width: 600px) {
+ @media (min-width: 800px) {
   header {
     justify-content: center;
   }
@@ -345,5 +345,10 @@ color:pink;
   }
   body {
     background-size: cover;
+  }
+
+  .about {
+    float: none;
+    width: 100%;
   }
  }
