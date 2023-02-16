@@ -1,15 +1,16 @@
+import { Icon } from '@iconify/react';
 function Footer(props) {
     return (
 <div className='colz-icon'>
            
            <a href="https://github.com/mary3210">
-             <i className="fa fa-github fa-lg"></i>
+           <Icon icon="uiw:github" />
            </a>
            <a href="https://www.linkedin.com/in/mary-rodriguez-/">
-             <i className="fa fa-linkedin fa-lg"></i>
+           <Icon icon="ant-design:linkedin-filled" />
            </a>
            <a href="mailto:maryrodri3210@gmail.com">
-           <i className="fa fa-envelope fa-lg"></i>
+           <Icon icon="ic:baseline-email" />
            </a>
                
            </div>
