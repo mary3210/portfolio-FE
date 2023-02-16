@@ -1,3 +1,5 @@
+
+
 @font-face {
   font-family: "Poppins Medium";
   font-style: normal;
@@ -152,7 +154,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to bottom right, #F4CFDF, #B6D8F2);
-  background-size: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
 code {
@@ -168,8 +173,8 @@ code {
 }
 
 img {
-  height: 400px;
-  width: 700px;
+  width: 90%;
+  max-width: 700px;
   border:solid #F082AC
 }
 
@@ -279,9 +284,7 @@ nav div:hover {
   display: inline;
  }
 
- body {
-  margin-top: 100px;
- }
+
 
  /* footer */
  .colz-icon a{
@@ -318,10 +321,12 @@ color:pink;
   margin: auto;
   height: 100px;
   width: 500px;
+  padding-top: 100px;
  }
 
  .about h1 {
   color: black
+
  }
 
  .projects p {
@@ -329,6 +334,10 @@ color:pink;
   color:white;
   text-align: center;
 
+ }
+
+ .profile-container {
+  padding-top: 100px;
  }
  /* .about p {
   
@@ -355,5 +364,10 @@ color:pink;
   margin: auto;
     float: none;
     width: 100%;
+  }
+ }
+ @media (max-width:1000px){
+  p {
+    font-size: 20px;
   }
  }
