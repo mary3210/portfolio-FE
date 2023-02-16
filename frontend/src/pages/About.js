@@ -8,7 +8,9 @@ function About(props) {
         const data = await response.json();
         setAbout(data);
     };
-    useEffect(() => getAboutData(), []);
+    useEffect(() => {
+        getAboutData()}, [])
+    ;
 
     const loaded = () => (
         <div className="about">
