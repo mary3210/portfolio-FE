@@ -208,6 +208,7 @@ img {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  
 }
 
 .button-1:hover,
@@ -352,7 +353,12 @@ color:pink;
   text-align: center;
 
  }
-
+ .probtns {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  
+ }
  .profile-container {
   padding-top: 100px;
  }

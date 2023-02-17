@@ -17,12 +17,14 @@ function Projects(props) {
                 <h1>{project.name}</h1>
                 <p>{project.description}</p>
                 <img src={project.image} />
+                <div className="probtns">
                 <a href={project.git}>
                     <button className="button-1">Github</button>
                 </a>
                 <a href={project.live}>
                     <button className="button-2">live site</button>
                 </a>
+                </div>
             </div>
         ));
     };
