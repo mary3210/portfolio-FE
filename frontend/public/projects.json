@@ -15,7 +15,7 @@
   },
   {
     "name": "Rick and Morty Wiki",
-    "live": "https://luminous-melomakarona-6cbbfe.netlify.app/",
+    "live": "https://rickandmortywiki-app.netlify.app",
     "git": "https://github.com/mary3210/project2",
     "image": "https://i.imgur.com/Tvqb3kk.png",
     "description": "A responsive (javascript, React.js, Express.js, Nodes.js, HTML, CSS) wiki page about characters in Rick and Morty."
