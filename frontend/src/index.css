@@ -311,6 +311,10 @@ color:pink;
   
  }
 
+ .about h3 {
+padding-top: 50px;
+ }
+
  .headshot {
   height: 300px;
   width: 210px;
