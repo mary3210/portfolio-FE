@@ -312,7 +312,7 @@ color:pink;
  }
 
  .about h3 {
-padding-top: 50px;
+padding-top: 100px;
  }
 
  .headshot {
@@ -350,11 +350,15 @@ padding-top: 50px;
   color: black
 
  }
-
+ .about p {
+  padding-left: 250px;
+  padding-right:100px;
+ }
  .projects p {
   margin-top: 0;
   color:#230180;
   text-align: center;
+  
 
  }
  .probtns {
