@@ -26,6 +26,7 @@ function Header(props) {
           <div>ABOUT</div>
         </Link>
         </div>
+        <div>PROJECTS</div>
         {/* <Link to="/projects">
           <div>PROJECTS</div>
         </Link> */}
