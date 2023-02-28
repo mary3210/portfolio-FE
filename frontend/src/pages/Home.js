@@ -6,6 +6,7 @@ function Home(props) {
     return (
       <div>
       <Profile/>
+      <About />
       <Projects/>
       
     </div>
