@@ -277,6 +277,7 @@ nav div:hover {
   justify-content: center;
   background-color: #82E3FF;
   box-shadow: 10px 5px 5px black;
+  z-index: 9999;
   
    
 
