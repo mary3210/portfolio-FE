@@ -1,18 +1,10 @@
 import { Link } from "react-router-dom";
 
 function Header(props) {
-  //inline style for the nav tag
-  // const navStyle = {
-  //   display: "flex",
-  //   justifyContent: "space-around",
-  //   background: "pink",
-  //   border: "3px solid black",
-  //   padding: "8px",
-  //   width: "90%",
-  //   margin: "auto",
-  //   position: "fixed",
-  // };
+ 
+<script>
 
+</script>
   return (
     <header>
       <nav >
@@ -33,6 +25,7 @@ function Header(props) {
         </Link> */}
       </nav>
     </header>
+   
   );
 
 }
