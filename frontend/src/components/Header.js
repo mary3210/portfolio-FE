@@ -1,10 +1,22 @@
-import { Link } from "react-router-dom";
+import {useEffect, useState} from 'react'
+import { Link } from "react-router-dom"
+
 
 function Header(props) {
- 
-<script>
+  const [scrolllTop, setScrollTop] = useState(0);
 
-</script>
+  useEffect(() => {
+    
+  const handleScroll = event => {
+    setScrollTop(event.currentTarget.scrollTop);
+  };
+  window.addEventListener('scroll', handleScroll);
+
+  return () => {
+    window.removeEventListener('scroll', handleScroll);
+  };
+}, []);
+
   return (
     <header>
       <nav >
