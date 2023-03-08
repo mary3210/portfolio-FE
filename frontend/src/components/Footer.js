@@ -1,7 +1,7 @@
 import { Icon } from '@iconify/react';
 function Footer(props) {
     return (
-<div className='colz-icon'>
+<div className='colz-icon' id="contact">
            
            <a href="https://github.com/mary3210">
            <Icon icon="uiw:github" width="50" height="25" />

@@ -1,21 +1,9 @@
-import {useEffect, useState} from 'react'
-import { Link } from "react-router-dom"
 
+import { Link } from "react-router-dom"
+import Projects from "../pages/Projects";
 
 function Header(props) {
-  const [scrolllTop, setScrollTop] = useState(0);
-
-  useEffect(() => {
-    
-  const handleScroll = event => {
-    setScrollTop(event.currentTarget.scrollTop);
-  };
-  window.addEventListener('scroll', handleScroll);
-
-  return () => {
-    window.removeEventListener('scroll', handleScroll);
-  };
-}, []);
+ 
 
   return (
     <header>
@@ -30,7 +18,7 @@ function Header(props) {
           <div>ABOUT</div>
         </Link>
         </div>
-        <div>PROJECTS</div>
+        <div><a href="#projects">PROJECTS</a></div>
         <div>CONTACT</div>
         {/* <Link to="/projects">
           <div>PROJECTS</div>

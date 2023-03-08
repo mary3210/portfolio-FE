@@ -13,7 +13,7 @@ function About(props) {
     ;
 
     const loaded = () => (
-        <div className="about">
+        <div className="about" id="about">
         <h1>{about.name}</h1>
         <img className="headshot" src="https://i.imgur.com/wjNtEMO.jpg" alt="selfie"/>
         <div className="text">
