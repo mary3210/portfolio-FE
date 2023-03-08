@@ -254,7 +254,7 @@ img {
 
 /* navbar */
 
-nav div {
+nav a {
   display: inline-block;
   justify-content: space-between;
   color:white;
@@ -262,7 +262,7 @@ nav div {
   text-decoration: none;
   padding-right: 10px;
 }
-nav div:hover {
+nav a:hover {
   color: pink;
 }
  header {
