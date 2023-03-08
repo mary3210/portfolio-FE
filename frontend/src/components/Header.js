@@ -14,12 +14,12 @@ function Header(props) {
         </Link>
         </div>
         <div className="headerabout">
-        <Link to="/about">
-          <div>ABOUT</div>
-        </Link>
+      
+          <div><a href="#about">ABOUT</a></div>
+       
         </div>
         <div><a href="#projects">PROJECTS</a></div>
-        <div>CONTACT</div>
+        <div><a href="#contact">CONTACT</a></div>
         {/* <Link to="/projects">
           <div>PROJECTS</div>
         </Link> */}
