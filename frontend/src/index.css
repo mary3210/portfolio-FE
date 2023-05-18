@@ -311,8 +311,11 @@ color:pink;
   height: 100px;
   
  }
-
+.about h1 {
+  color: white;
+}
  .about h3 {
+  color:white;
 padding-top: 100px;
  }
 
