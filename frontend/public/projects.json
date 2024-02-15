@@ -1,5 +1,12 @@
 [
   {
+    "name": "Havest Exchange",
+    "live": "https://harvestexchange-30b3fd4fc20a.herokuapp.com/",
+    "git": "https://github.com/mary3210/harvest-exhange",
+    "image": "https://i.imgur.com/qqPpVZL.png",
+    "description": "A full-stack MERN (Mongoose, Express, React, Node) app that users can seach for produce from fellow gardeners in their area with filters. "
+  },
+  {
     "name": "Perfect Lips",
     "live": "https://lipstickcollector.netlify.app/",
     "git": "https://github.com/mary3210/Capstone-LipstickApp-FE",
@@ -11,7 +18,7 @@
     "live": "https://fitness-check.netlify.app/",
     "git": "https://github.com/mary3210/project-3-fitness-frontend",
     "image": "https://i.imgur.com/bR7Fzws.png",
-    "description": "A fullstack MERN (Mongoose, Express, React, Node) app that stores users' fitness selfies and profiles"
+    "description": "A full-stack MERN (Mongoose, Express, React, Node) app that stores users' fitness selfies and profiles"
   },
   {
     "name": "Rick and Morty Wiki",
