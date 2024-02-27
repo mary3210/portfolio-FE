@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
-import { Icon } from '@iconify/react';
+import Footer from '../components/Footer';
+import Profile from "./Profile";
+import { TypeAnimation } from 'react-type-animation';
 
 function About(props) {
     const [about, setAbout] = useState(null);
@@ -14,27 +16,37 @@ function About(props) {
 
     const loaded = () => (
         <div className="about" id="about">
-        <h1>{about.name}</h1>
-        <img className="headshot" src="https://i.imgur.com/wjNtEMO.jpg" alt="selfie"/>
-        <div className="text">
-        <p>{about.bio}</p>
+        <div className='headimage'>
+            <img className="headshot" src="https://i.imgur.com/gXCdVNr.png" alt="selfie"/>
         </div>
-        <h3>Technical skills</h3>
-        <div className="iconss">
-        <Icon icon="vscode-icons:file-type-python" width="100" height="50"/>
-        <Icon icon="logos:javascript" width="100" height="50"/>
-        <Icon icon="vscode-icons:file-type-html" width="100" height="50"/>
-        <Icon icon="vscode-icons:file-type-css" width="100" height="50"/>
-        <Icon icon="skill-icons:react-dark" width="100" height="50"/>
-        <Icon icon="skill-icons:expressjs-dark" width="100" height="50"/>
-        <Icon icon="skill-icons:bootstrap" width="100" height="50"/>
-        <Icon icon="skill-icons:sass" width="100" height="50"/>
-        <Icon icon="vscode-icons:file-type-node2" width="100" height="50"/>
-        <Icon icon="vscode-icons:file-type-git" width="100" height="50"/>
-        <Icon icon="logos:github-icon" width="100" height="50"/>
-        <Icon icon="skill-icons:postgresql-dark" width="100" height="50"/>
-        <Icon icon="logos:django" width="100" height="50"/>
+        <div className='aboutcontent'>
+            <h1><span className='transparenttext'>Hey, I'm </span>
+            {/* <span className='animatedtitle'>Mary.</span> */}
+            <TypeAnimation
+              sequence={[
+                "Mary.",
+                2000,
+                "Web Developer.",
+                2000,
+                "Fullstack Dev.",
+                2000,
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+            /></h1>
+            <div className="text">
+                <p>I'm a software Engineer who is passionate about solving complex problems and creating responsive apps. </p>
+            </div>
+            <div className='abouticons'>
+            <Footer/>
+            </div>
+            <Profile/>
         </div>
+      
+        
+       
+        
         </div>
     );
     return about ? loaded() : <h1>Loading...</h1>;

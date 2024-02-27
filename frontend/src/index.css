@@ -179,8 +179,7 @@ img {
   /* border:solid #F082AC */
 }
 
-/* <!-- HTML !-->
-<button class="button-1" role="button">Button 1</button> */
+
 
 /* CSS */
 .button-1 {
@@ -257,10 +256,10 @@ img {
 nav a {
   display: inline-block;
   justify-content: space-between;
-  color:white;
   font-size: 30px;
   text-decoration: none;
-  padding-right: 10px;
+  padding-right: 20px;
+  color: #B6D8F2;
 }
 nav a:hover {
   color: pink;
@@ -268,26 +267,29 @@ nav a:hover {
  header {
   display: flex;
   position: fixed;
-  top:0;
+  top: 0;
   left: 0;
-  right:0;
+  right: 0;
   height: 80px;
   padding: 10px 10px 0px 0px;
   height: 50px;
-  justify-content: center;
-  background-color: #82E3FF;
-  box-shadow: 10px 5px 5px black;
+  background-color: rgb(248, 239, 238, .7);
   z-index: 9999;
-  
-   
-
+  width: 100%;
+  max-width: 100vw;
  }
 
  header * {
   display: inline;
  }
 
-
+ span.transparenttext {
+  min-width: 391px;
+  font-size: 79px;
+  color: transparent;
+  background: linear-gradient(to right,#c084fc, #db2777);
+  -webkit-background-clip: text;
+}
 
  /* footer */
  .colz-icon a{
@@ -316,48 +318,98 @@ color:pink;
 }
  .about h3 {
   color:white;
-padding-top: 100px;
-size: 30px;
+  padding-top: 100px;
+  size: 30px;
  }
 
  .headshot {
-  height: 300px;
-  width: 210px;
+ border-radius: 30px;
+ scale: .8;
+ min-width: 308px;
  }
- .text {
 
-  display: contents;
-  justify-content: center;
-  align-self: center;
-  align-items: center;
-  width: 500px;
+ .text {
+  display: flex;
+  text-align: left;
+  font-size: 30px
   
  }
+
+ .skillstitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+ .skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
  .iconss {
   
+  display: flex;
   justify-content: center;
   padding-bottom: 100px;
+  width: 100%;
  }
+
+ .linkedinicon svg {
+  width: 75px;
+  height: 75px;
+}
+
+.githubicon svg {
+  width: 60px;
+  height: 60px;
+}
+
+.colz-icon {
+  display: flex;
+}
+
  .about {
-  
-  display: inline-block;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: calc(100vh + 60px);
+    align-items: center;
+    min-height: 827px;
+ }
+
+ .aboutcontent {
+  display: flex;
   flex-direction: column;
+  max-width: 1000px;
   justify-content: center;
-  text-align: center;
-  margin: auto;
-  
-  
-  padding-top: 50px;
-  
- }
-
+  align-items: flex-start;
+  height: 100%;
+  padding-right: 25px;
+  width: 100%;
+  min-height: 653px;
+  padding-left: 25px;
+}
  .about h1 {
-  color: black
-
+  color: black;
+  text-transform: uppercase;
+  font-size: 80px;
+  line-height: 90px;
+  margin: 0px;
  }
+
+ .about span {
+  font-size: 100px;
+  display: flex;
+  padding-bottom: 8px;
+}
+
+
  .about p {
-  padding-left: 250px;
-  padding-right:250px;
   color:#230180;
  }
  .projects p {
@@ -374,18 +426,87 @@ size: 30px;
   
  }
  .profile-container {
-  padding-top: 100px;
+  display: flex;
+  padding-top: 1px;
+  justify-content: center;
+  width: 100%;
  }
- /* .about p {
-  
-  height: 100px;
-  width: 500px;
- } */
+
+ .logo {
+  height: 100%;
+  display: flex;
+  color: white;
+}
+
+.logo svg {
+  color: pink;
+  animation: heartbeat 1s infinite;
+}
+nav {
+  display: flex;
+  width: 100%;
+}
+.home {
+  display: flex;
+  width: 100%;
+  justify-content: space-around
+}
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+
+@keyframes typing{
+  from{
+    width:0;
+  }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+span.animatedtitle {
+     /* opacity: 0; */
+    /* content: '|'; */
+    display: table-cell;
+    animation: typing 1.1s infinite step-start, blink .5s step-end infinite alternate;
+    border-right: 5px solid;
+    overflow: hidden;
+    width: 0;
+
+}
+
+
 
  @media (min-width: 1000px) {
-  header {
-    justify-content: center;
-  }
+ 
   .projects {
     justify-content: center;
   }
@@ -393,16 +514,6 @@ size: 30px;
     background-size: cover;
   }
 
-  .about {
-    display: inline-block;
-  flex-direction: column;
- 
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-    float: none;
-    width: 100%;
-  }
  }
  @media (max-width:1000px){
   p {
