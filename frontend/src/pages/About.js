@@ -18,6 +18,7 @@ function About(props) {
         <div className="about" id="about">
         <div className='headimage'>
             <img className="headshot" src="https://i.imgur.com/gXCdVNr.png" alt="selfie"/>
+            <img className="irlphoto" src="https://i.imgur.com/wjNtEMO.jpg" alt="irl selfie"/>
         </div>
         <div className='aboutcontent'>
             <h1><span className='transparenttext'>Hey, I'm </span>
@@ -43,10 +44,6 @@ function About(props) {
             </div>
             <Profile/>
         </div>
-      
-        
-       
-        
         </div>
     );
     return about ? loaded() : <h1>Loading...</h1>;

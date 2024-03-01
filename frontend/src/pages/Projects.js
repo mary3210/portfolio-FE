@@ -12,11 +12,24 @@ function Projects(props) {
     useEffect(() => {getProjectsData()}, []);
 
     const loaded = () =>{
-        return projects.map((project) => (
+
+        return (
+            <div className='projectsContainer'>
+            <h1>Projects</h1>
+            {projects.map((project) => (
             <div className="projects" id="projects">
-                <h1>{project.name}</h1>
+                <div className='projectswrapper'>
+                <div className='projectimage'>
+                <img src={project.image} alt="project"/>
+                </div>
+                <div className='projectcontent'>
+                <h2>{project.name}</h2>
                 <p>{project.description}</p>
-                <img src={project.image} />
+                <div className='skillsWrapper'>
+                {project.skills.map((skill) => (
+                    <div className='skillitem'>{skill}</div>
+                ))}
+                </div>
                 <div className="probtns">
                 <a href={project.git}>
                     <button className="button-1">Github</button>
@@ -25,8 +38,11 @@ function Projects(props) {
                     <button className="button-2">live site</button>
                 </a>
                 </div>
+                </div>
+                </div>
             </div>
-        ));
+            
+        ))}</div>);
     };
     return projects ? loaded() : <h1>Loading...</h1>
   }
