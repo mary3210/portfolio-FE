@@ -1,5 +1,7 @@
-
-
+import { VscServerProcess } from "react-icons/vsc";
+import { FaLaptopCode } from "react-icons/fa";
+import { CgWebsite } from "react-icons/cg";
+import { SiReact } from "react-icons/si";
 function AboutMe(props) {
     return (
 <div className="AboutMeContainer">
@@ -17,9 +19,21 @@ function AboutMe(props) {
                 When I'm not coding, you can find me reading fantasy books or switching between playing nostalgic final fantasy games to modern cute games like pokemon.
                 </p> 
            </div>
-        {/* <div className='AboutMeImageContainer'>
-            <img className='AboutMeImage' src='https://i.imgur.com/TiS34XM.png' alt='pixelized computer'/>
-        </div> */}
+           <div className="aboutstones">
+           <div className="frontendstone boxstyle">
+            <FaLaptopCode className="svgabout"/>
+            <h3>Fontend Developer</h3>
+            </div>
+           <div className="backendstone boxstyle"><VscServerProcess className="svgabout"/>
+           <h3>Backend developer</h3>
+           </div>
+           <div className="webdevstone boxstyle"><CgWebsite className="svgabout"/>
+           <h3>Web Developer</h3>
+           </div>
+           <div className="reactdevstone boxstyle"><SiReact className="svgabout"/>
+           <h3>React Developer</h3>
+           </div>
+           </div>
     </div>
 </div>  
     );

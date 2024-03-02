@@ -17,18 +17,20 @@ function Projects(props) {
             <div className='projectsContainer'>
             <h1>Projects</h1>
             {projects.map((project) => (
-            <div className="projects" id="projects">
+            <div className="projects">
                 <div className='projectswrapper'>
                 <div className='projectimage'>
                 <img src={project.image} alt="project"/>
                 </div>
                 <div className='projectcontent'>
+                <div className='contentwrapper'>
                 <h2>{project.name}</h2>
                 <p>{project.description}</p>
                 <div className='skillsWrapper'>
                 {project.skills.map((skill) => (
                     <div className='skillitem'>{skill}</div>
                 ))}
+                </div>
                 </div>
                 <div className="probtns">
                 <a href={project.git}>
