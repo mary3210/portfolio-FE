@@ -15,12 +15,19 @@ function Projects(props) {
 
         return (
             <div className='projectsContainer'>
-            <h1>Projects</h1>
+                <div className='projectstitle'>
+                <h1>Projects</h1>
+                </div>
+            
             {projects.map((project) => (
             <div className="projects">
                 <div className='projectswrapper'>
                 <div className='projectimage'>
                 <img src={project.image} alt="project"/>
+                
+                <div className='mobileimage'>
+                <img src={project.mobileimage} alt="phone version"/>
+                </div>
                 </div>
                 <div className='projectcontent'>
                 <div className='contentwrapper'>

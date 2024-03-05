@@ -3,7 +3,8 @@
     "name": "Harvest Exchange",
     "live": "https://harvestexchange-30b3fd4fc20a.herokuapp.com/",
     "git": "https://github.com/mary3210/harvest-exhange",
-    "image": "https://i.imgur.com/rcUcSFI.png",
+    "image": "https://i.imgur.com/JQtoie3.png",
+    "mobileimage": "https://i.imgur.com/h6J8Jny.png",
     "description": "Made for Gardeners, by a gardener. Harvest Exchange facilitates the need for trade, buying, selling, and sharing of produce in local communities.",
     "skills": ["React", "Javascript", "Typescript", "HTML", "CSS", "Mongoose", "MongoDB", "Express", "REST API's", "Token-based Authentication", "Responsive Design", "Node.js" ]
 },
@@ -12,6 +13,7 @@
     "live": "https://lipstickcollector.netlify.app/",
     "git": "https://github.com/mary3210/Capstone-LipstickApp-FE",
     "image": "https://i.imgur.com/U5wqVh9.png",
+    "mobileimage": "https://i.imgur.com/cgL0ENQ.png",
     "description": "A full-stack MERN (Mongoose, Express, React, Node) app that reviews lipstick products and displays them.",
     "skills": ["React", "Javascript", "Typescript", "HTML", "CSS", "Mongoose", "MongoDB", "Express", "REST API's", "Node.js" ]
   },
@@ -20,6 +22,7 @@
     "live": "https://fitness-check.netlify.app/",
     "git": "https://github.com/mary3210/project-3-fitness-frontend",
     "image": "https://i.imgur.com/2qEemHt.png",
+    "mobileimage": "https://i.imgur.com/OWxJYaE.png",
     "description": "A full-stack MERN (Mongoose, Express, React, Node) app that stores users' fitness selfies and profiles",
     "skills": ["React", "Javascript", "Typescript", "HTML", "CSS", "Mongoose", "MongoDB", "Express", "REST API's", "Token-based Authentication", "Responsive Design", "Node.js" ]
   },
@@ -28,6 +31,7 @@
     "live": "https://rickandmortywiki-app.netlify.app",
     "git": "https://github.com/mary3210/project2",
     "image": "https://i.imgur.com/6AjMFaM.png",
+    "mobileimage": "https://i.imgur.com/kkHK8yn.png",
     "description": "A responsive (Javascript, React.js, Express.js, Node.js, HTML, CSS) wiki page about characters in Rick and Morty.",
     "skills": ["React", "Javascript", "Typescript", "HTML", "CSS", "Node.js" ]
   }

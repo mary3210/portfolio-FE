@@ -178,12 +178,25 @@ code {
   flex-direction:row-reverse;
       
   }
-  
+
+  .projectimage {
+    position: relative;
+}
+.mobileimage {
+    width: 30%;
+    max-height: 487px;
+    position: absolute;
+    left: 658px;
+}
+
   .projectswrapper> div {
       width:50%;
+      display: flex;
       
   }
-  
+  .mobileimage img {
+    scale: 0.8;
+}  
   .projectswrapper {
       justify-content: center;
       width:100%;
@@ -197,9 +210,20 @@ code {
       width: 100vw;
       
   }
-  
+
+  .contentwrapper h2 {
+    color: #EA4C89;
+
+}
+
+  .projects p {
+    margin-top: 0;
+    color: black;
+    text-align: left;
+    font-size: 18px;
+}
   .projectcontent > *{
-      max-width: 592px;
+      max-width: 792px;
   }
 img {
   width: 90%;
@@ -325,10 +349,12 @@ nav a:hover {
  }
 
  h1 {
-  color: white;
+  color: transparent;
+  background: linear-gradient(to right,#c084fc, #db2777);
+  -webkit-background-clip: text;
   margin-top: 0;
   padding-top: 0;
-  line-height: 1;
+  line-height: 2;
   font-size: 60px;
  }
 .colz-icon a:hover{
@@ -552,11 +578,17 @@ color:pink;
 
  .projects p {
   margin-top: 0;
-  color:#230180;
+  color:black;
   text-align: left;
   font-size: 18px;
  }
 
+ .projectstitle {
+  max-width: 1000px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
  .projectswrapper {
   display: flex;
 }
@@ -568,7 +600,11 @@ color:pink;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 529px;
+  max-width: 801px;
+ 
+  flex-wrap: wrap;
+  align-content: end;
+
 }
 
 .skillsWrapper {
@@ -660,10 +696,11 @@ nav {
   flex-direction: column;
 }
 
-.boxstyle {
-  width: 250px;
+
+  .boxstyle {
+    width: 250px;
     height: 280px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.4) 0px 15px 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 255, .2) 0px 15px 40px;
     margin: 10px;
     border-radius: 10px;
     display: flex;
@@ -671,7 +708,10 @@ nav {
     align-items: center;
     flex-direction: column;
     gap: 2rem;
+    background-color: #c084fc35;
+    color: white;
 }
+
 svg.svgabout {
   scale: 5;
 }
