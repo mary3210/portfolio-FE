@@ -83,6 +83,11 @@ body ::-webkit-scrollbar-thumb {
   background: hsla(0, 0%, 100%, 0.1);
 }
 
+
+html{
+  scroll-behavior:smooth;
+}
+
 .btn {
   border-radius: 50px;
   padding: 14px 0;
@@ -186,7 +191,7 @@ code {
     width: 30%;
     max-height: 487px;
     position: absolute;
-    left: 658px;
+    left: 74%;
 }
 
   .projectswrapper> div {
@@ -606,7 +611,9 @@ color:pink;
   align-content: end;
 
 }
-
+div#projects {
+  padding-top: 30px;
+}
 .skillsWrapper {
   display: flex;
   flex-wrap: wrap;
@@ -694,6 +701,7 @@ nav {
 .AboutMeContainer {
   display: flex;
   flex-direction: column;
+  padding-top: 60px;
 }
 
 
@@ -744,12 +752,17 @@ form {
   flex-direction: column;
   justify-content: center;
 }
-.contactinput textarea{
-width: 86%;
-    border-radius: 10px;
-    outline: none;
-    border-color: white;
+
+.contactinput textarea {
+  width: 86%;
+  border-radius: 10px;
+  outline: none;
+  border-color: white;
+  resize: none;
+  padding: 8px;
+  font-size: 16px;
 }
+
 .contactinput {
   display: flex;
   /* max-width: 500px; */
@@ -760,10 +773,33 @@ width: 86%;
   align-content: center;
   flex-wrap: wrap;
 }
-.contactbtn input[type="submit"] {
+.contactbtn button {
+  display: flex;
   background-color: pink;
   border-radius: 6px;
   padding: 13px;
+  border: none;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  font-family: system-ui;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+
+}
+.contactbtn {
+  display: flex;
+  justify-content: center;
+}
+.contactinput label {
+  font-weight: bold;
+  font-family: system-ui;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+.contactbtn svg {
+  scale: 1.3;
 }
 
 .contactinput input {
@@ -772,7 +808,10 @@ width: 86%;
   height: 35px;
   border-radius: 10px;
   border-color: white;
+  padding: 5px;
+  font-size: 16px;
 }
+
 @keyframes heartbeat
 {
   0%

@@ -9,7 +9,6 @@ function Skills(props) {
     <div className='iconcontainer'>        
     <div className="iconss">
         <div className='heartdiv python'><Icon icon="vscode-icons:file-type-python" className="icon" width="100" height="50"/></div>
-        {/* <Icon icon="vscode-icons:file-type-python" className="icon" width="100" height="50"/> */}
         <div className='heartdiv js' ><Icon icon="logos:javascript" width="100" className="icon" height="50"/></div>
         <div className='heartdiv html'><Icon icon="vscode-icons:file-type-html" className="icon" width="100" height="50"/></div>
         <div className='heartdiv css'><Icon icon="vscode-icons:file-type-css" className="icon" width="100" height="50"/></div>

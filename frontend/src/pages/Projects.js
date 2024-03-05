@@ -14,7 +14,7 @@ function Projects(props) {
     const loaded = () =>{
 
         return (
-            <div className='projectsContainer'>
+            <div id="projects" className='projectsContainer'>
                 <div className='projectstitle'>
                 <h1>Projects</h1>
                 </div>

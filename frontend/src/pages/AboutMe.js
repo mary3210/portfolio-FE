@@ -4,12 +4,12 @@ import { CgWebsite } from "react-icons/cg";
 import { SiReact } from "react-icons/si";
 function AboutMe(props) {
     return (
-<div className="AboutMeContainer">
+<div  id="about" className="AboutMeContainer">
     
-    <div className="AboutMeWrapper">        
+    <div  className="AboutMeWrapper">        
         <div className="AboutDescription"> 
-        <div className="title">
-        <h1>About Me</h1>
+        <div  className="title">
+        <h1 >About Me</h1>
             </div>  
               <p>I am a Fullstack software developer, who believes in the  philosophy of life-long learning. 
                 I enjoy learning new technologies and using creativity to solve complex issues. In the past five years, 

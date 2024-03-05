@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { RiMailSendLine } from "react-icons/ri";
 
 export const ContactUs = () => {
   const form = useRef();
@@ -24,7 +25,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className='contactformcontainer'>
+    <div id="contact" className='contactformcontainer'>
     <div className='contactform'>
         <div className='contacttitle'><h1>Contact Me</h1></div>
     <form ref={form} onSubmit={sendEmail}>
@@ -52,7 +53,7 @@ export const ContactUs = () => {
       <textarea rows="7" name="message" />
       </div>
       <div className='contactbtn'>
-      <input type="submit" value="Send" />
+      <button type="submit" value='send'>SEND <RiMailSendLine/> </button>
       </div>
     </form>
     </div>
