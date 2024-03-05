@@ -4,6 +4,7 @@ import Projects from "./Projects";
 import Footer from "../components/Footer";
 import About from "./About";
 import Skills from './Skills';
+import { ContactUs } from "./Contact";
 function Home(props) {
     return (
       <div>
@@ -11,8 +12,9 @@ function Home(props) {
       <AboutMe/>
       <Skills/>
       <Projects/>
+      <ContactUs/>
     </div>
     )
   }
   
-  export default Home;
+  export default Home

@@ -719,6 +719,60 @@ svg.svgabout {
   display: flex;
   gap: 1.7rem;
 }
+
+
+.contactformcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+  .contactform {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #c084fc35;
+    width: 35%;
+    max-width: 750px;
+    border-radius: 15px;
+    padding: 33px;
+}
+
+
+form {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.contactinput textarea{
+width: 86%;
+    border-radius: 10px;
+    outline: none;
+    border-color: white;
+}
+.contactinput {
+  display: flex;
+  /* max-width: 500px; */
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  /* max-width: 100%; */
+  align-content: center;
+  flex-wrap: wrap;
+}
+.contactbtn input[type="submit"] {
+  background-color: pink;
+  border-radius: 6px;
+  padding: 13px;
+}
+
+.contactinput input {
+  width: 86%;
+  /* height: 100%; */
+  height: 35px;
+  border-radius: 10px;
+  border-color: white;
+}
 @keyframes heartbeat
 {
   0%
