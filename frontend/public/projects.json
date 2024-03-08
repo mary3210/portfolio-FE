@@ -14,7 +14,7 @@
     "git": "https://github.com/mary3210/Capstone-LipstickApp-FE",
     "image": "https://i.imgur.com/U5wqVh9.png",
     "mobileimage": "https://i.imgur.com/cgL0ENQ.png",
-    "description": "A full-stack MERN (Mongoose, Express, React, Node) app that reviews lipstick products and displays them.",
+    "description": "Perfect Lips is a platform where it brings lipstick connoisseurs together to talk about their most favorite subject. Fellow lipstick fans can leave reviews for various lipsticks from any brand and can collect information from multiple users about what's worth being in their makeup collection. ",
     "skills": ["React", "Javascript", "Typescript", "HTML", "CSS", "Mongoose", "MongoDB", "Express", "REST API's", "Node.js" ]
   },
   {
@@ -23,7 +23,7 @@
     "git": "https://github.com/mary3210/project-3-fitness-frontend",
     "image": "https://i.imgur.com/2qEemHt.png",
     "mobileimage": "https://i.imgur.com/OWxJYaE.png",
-    "description": "A full-stack MERN (Mongoose, Express, React, Node) app that stores users' fitness selfies and profiles",
+    "description": "FitCheck is an Instagram-style app that's all about fitness accountability. Users can create a profile and post fitness-related images with descriptions, tags, workout ratings, and difficulty ratings. ",
     "skills": ["React", "Javascript", "Typescript", "HTML", "CSS", "Mongoose", "MongoDB", "Express", "REST API's", "Token-based Authentication", "Responsive Design", "Node.js" ]
   },
   {
@@ -32,7 +32,7 @@
     "git": "https://github.com/mary3210/project2",
     "image": "https://i.imgur.com/6AjMFaM.png",
     "mobileimage": "https://i.imgur.com/kkHK8yn.png",
-    "description": "A responsive (Javascript, React.js, Express.js, Node.js, HTML, CSS) wiki page about characters in Rick and Morty.",
+    "description": "The Rick and Morty Wiki app, is an application that uses the Rick and Morty data base to showcase characters from the show Rick and Morty. ",
     "skills": ["React", "Javascript", "Typescript", "HTML", "CSS", "Node.js" ]
   }
    

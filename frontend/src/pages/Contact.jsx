@@ -26,8 +26,11 @@ export const ContactUs = () => {
 
   return (
     <div id="contact" className='contactformcontainer'>
+  
     <div className='contactform'>
+    <div className='contacttitlecontainer'>
         <div className='contacttitle'><h1>Contact Me</h1></div>
+        </div>
     <form ref={form} onSubmit={sendEmail}>
     <div></div>
       {/* <div className='contactlabel'>

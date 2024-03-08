@@ -44,6 +44,8 @@ function About(props) {
             </div>
             <Profile/>
         </div>
+        <div className='spacer'>
+        </div>
         </div>
     );
     return about ? loaded() : <h1>Loading...</h1>;
