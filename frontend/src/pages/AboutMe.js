@@ -20,17 +20,17 @@ function AboutMe(props) {
                 </p> 
            </div>
            <div className="aboutstones">
-           <div className="frontendstone boxstyle">
+           <div className="frontendstone boxstyle grow">
             <FaLaptopCode className="svgabout"/>
             <h3>Fontend Developer</h3>
             </div>
-           <div className="backendstone boxstyle"><VscServerProcess className="svgabout"/>
+           <div className="backendstone boxstyle grow"><VscServerProcess className="svgabout"/>
            <h3>Backend developer</h3>
            </div>
-           <div className="webdevstone boxstyle"><CgWebsite className="svgabout"/>
+           <div className="webdevstone boxstyle grow"><CgWebsite className="svgabout"/>
            <h3>Web Developer</h3>
            </div>
-           <div className="reactdevstone boxstyle"><SiReact className="svgabout"/>
+           <div className="reactdevstone boxstyle grow"><SiReact className="svgabout"/>
            <h3>React Developer</h3>
            </div>
            </div>

@@ -56,7 +56,7 @@ function Projects(props) {
             <div className="projects">
                 <div className='projectswrapper show'>
                 <div className='projectimage'>
-                <img src={project.image} alt="project"/>
+                <img className="laptopimage" src={project.image} alt="project"/>
                 
                 <div className='mobileimage'>
                 <img src={project.mobileimage} alt="phone version"/>

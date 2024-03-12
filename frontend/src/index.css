@@ -268,7 +268,7 @@ img {
 
 .button-1:hover,
 .button-1:focus {
-  background-color: #f3e6ea;
+  background-color: #f694ba;
 }
 
 /* <!-- HTML !-->
@@ -304,7 +304,7 @@ img {
 
 .button-2:hover,
 .button-2:focus {
-  background-color:#f3e6ea ;
+  background-color:#f694ba ;
 }
 
 /* navbar */
@@ -510,12 +510,19 @@ color:pink;
 .heartdiv.sql::before, .heartdiv.sql:after {
   background:#242938;
 }
+
+.linkedinicon svg:hover {
+  color: #b868b5;
+}
  .linkedinicon svg {
   width: 60px;
   height: 60px;
   color: purple;
 }
 
+.githubicon svg:hover{
+  color: #b868b5;
+}
 .githubicon svg {
   width: 60px;
   height: 60px;
@@ -862,6 +869,39 @@ form {
   transition: all 1s;
 }
 
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1)
+}
+.mobileimage img:hover {
+  animation: bob-on-hover 2s infinite;
+}
+
+img.laptopimage:hover {
+  animation: bob-on-hover 3s infinite;
+}
+@keyframes bob-on-hover {
+  0% {
+    transform: translateY(0px);
+  }
+
+25%{
+  transform: translateY(-10px)
+}
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
+
+100% {
+  transform: translateY(0px);
+}
+}
 
 @keyframes heartbeat
 {
