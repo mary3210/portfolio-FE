@@ -9,7 +9,40 @@ function Projects(props) {
         const data = await response.json();
         setProjects(data)
     };
-    useEffect(() => {getProjectsData()}, []);
+
+    useEffect(() => {
+        getProjectsData();
+    }, []);
+
+    useEffect(() => {
+        const options = {
+            root: null,
+            threshold: .75,
+            
+        };
+     
+        const projectswrapper = document.querySelectorAll(".projectswrapper");
+        console.log(projectswrapper)
+        if (projectswrapper) {
+            let observer = new IntersectionObserver(function (entries, observer) {
+                entries.forEach(element => {
+                    console.log(entries)
+                    element.target.classList.toggle("show")
+                    
+                });
+            }, options);
+                
+            projectswrapper.forEach((element)=> {
+                if(element){
+                    observer.observe(element)
+                    
+                }
+            })
+        }
+    }, [projects]);
+
+    
+        
 
     const loaded = () =>{
 
@@ -21,7 +54,7 @@ function Projects(props) {
             
             {projects.map((project) => (
             <div className="projects">
-                <div className='projectswrapper'>
+                <div className='projectswrapper show'>
                 <div className='projectimage'>
                 <img src={project.image} alt="project"/>
                 

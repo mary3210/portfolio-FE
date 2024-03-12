@@ -55,14 +55,14 @@
 
 body {
   margin: 0;
-  overflow-y: overlay;
   font-family: "Poppins Regular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 html {
   -webkit-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior:smooth;
 }
 
 *,
@@ -92,11 +92,6 @@ body ::-webkit-scrollbar-thumb {
 
 ::-webkit-scrollbar-track {
   background: hsla(0, 0%, 100%, 0.1);
-}
-
-
-html{
-  scroll-behavior:smooth;
 }
 
 .btn {
@@ -598,6 +593,19 @@ color:pink;
 }
  .projectswrapper {
   display: flex;
+  opacity: 0;
+  transition: all 2s;
+  filter: blur(5px);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.projects:nth-of-type(odd) .projectswrapper {
+  transform: translateX(-20%);
+}
+
+.projects:nth-of-type(even) .projectswrapper {
+  transform: translateX(20%);
 }
 
 .projectcontent img {
@@ -838,6 +846,22 @@ form {
 .mobilemenu {
   display:none;
 }
+
+
+/* .hidden {
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+  transform: translateX(-20%);
+} */
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0)!important;
+  transition: all 1s;
+}
+
 
 @keyframes heartbeat
 {
